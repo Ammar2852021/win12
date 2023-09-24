@@ -301,6 +301,12 @@ DateTimeMenuFunction();
 
 let Exit = document.getElementById('Exit');
 
+
+let chat = document.getElementById('chat');
+chat.addEventListener('click',function(){
+    chat.style.display='none';
+})
+
 Exit.addEventListener('click',function(){
 
     window.close();

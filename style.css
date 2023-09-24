@@ -967,6 +967,7 @@ tr:nth-child(3) {
           animation: chat-popup 500ms both;
   transform-origin: bottom right;
   position: relative;
+  cursor: pointer;
 }
 .chat:nth-child(1) {
   -webkit-animation-delay: calc(1 * 1000ms);
