@@ -123,22 +123,6 @@ DateTime.addEventListener("click", () => {
 })
 
 
-clickanywhere = document.getElementById("myVideo")
-clickanywhere.addEventListener("click", () => {
-    if (startmenu.style.bottom == "50px") {
-        startmenu.style.bottom = "-655px"
-    }
-    else if (searchmenu.style.bottom == "50px") {
-        searchmenu.style.bottom = "-655px"
-    }
-    else if(widgetMenu.style.left == "0px"){
-        widgetMenu.style.left = "-50%"
-    }
-    else if(DateTimeMenu.style.right == "0px"){
-        DateTimeMenu.style.right = "-500px"
-    }
-
-})
 
 
 /* Get the element you want displayed in fullscreen mode (a video in this example): */
@@ -312,3 +296,13 @@ function DateTimeMenuFunction() {
 }
 
 DateTimeMenuFunction();
+
+
+
+let Exit = document.getElementById('Exit');
+
+Exit.addEventListener('click',function(){
+
+    window.close();
+
+})
